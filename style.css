@@ -341,3 +341,15 @@ section{
   align-items: center; 
   margin: 1rem;
 }
+
+/* Some magic */ 
+@media(max-width:1285px){
+.home{
+  flex-direction: column-reverse;
+  margin: 2rem 0;
+  gap: 5rem;
+}
+.home-img img{
+  width: 50vw;
+}
+}
